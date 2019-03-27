@@ -43,7 +43,7 @@ public class AppTest
     		String s1 = localTime.format(dateTimeFormatter).toLowerCase();
     		System.out.println(s1);
 
-
+    		System.out.println("Jyoti bankey testing");
     		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
     				"//android.widget.Button[@resource-id='com.android.packageinstaller:id/permission_allow_button']")))
     				.click();
