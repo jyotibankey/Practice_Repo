@@ -40,7 +40,7 @@ public class AppTest {
 		
 		dr.findElement(By.id("com.arbapps.loanemicalc:id/loanemicalc")).click();
 				
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		dr.findElement(By.xpath("//android.widget.EditText[@resource-id='com.arbapps.loanemicalc:id/principal_amount']")).sendKeys("40000");
 		
