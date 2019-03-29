@@ -54,7 +54,7 @@ public class AppTest {
 		
 		dr.findElement(By.xpath("//android.widget.EditText[@resource-id='com.arbapps.loanemicalc:id/afford_emi']")).sendKeys("40000");
 		
-		dr.findElement(By.xpath("//android.widget.EditText[@index='0']")).sendKeys("5");
+		dr.findElement(By.xpath("//android.widget.EditText[@index='0']")).sendKeys("3");
 		
 		dr.findElement(By.xpath("//android.widget.EditText[@index='5']")).sendKeys("5");
    }
